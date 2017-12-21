@@ -6,12 +6,32 @@ Basado en:
 
 [link a wrf-python-tutorial](https://github.com/NCAR/wrf_python_tutorial)
 
+## Instalación
+
 Para poder hacer el tutorial seguir las indicaciones de:
 
 [link a instalación de wrf-python-tutorial](http://wrf-python.readthedocs.io/en/latest/workshop.html)
 
-Seguir los pasos 1, 2, 3 y 4, con la excepción de que en el paso 4.4 ejecutar:
+Seguir los pasos de instalación con los siguientes cambios:
+
+#### Step 4: Set Up the Conda Environment
+
+En este paso, en el punto 4, ejecutar:
 
 ```bash
 conda create -n curso_wrf python=2.7 matplotlib=1.5.3 netcdf4 jupyter git wrf-python basemap numpy pandas xarray
 ```
+
+En el punto 5, donde diga *tutorial_2017* poner *curso_wrf*
+
+#### Step 5: Download the Student Workbook
+
+En este paso, igual que antes, donde diga *tutorial_2017* cambiar por *curso_wrf*
+
+En el punto 3, cambiar por:
+
+```bash
+git clone https://github.com/gonzigaran/curso-wrf-python.git
+```
+
+
