@@ -10,7 +10,7 @@ Basado en:
 
 Para poder hacer el tutorial seguir las indicaciones de:
 
-[link a instalación de wrf-python-tutorial](http://wrf-python.readthedocs.io/en/latest/workshop.html)
+[link a instalación de wrf-python-tutorial](https://wrf-python.readthedocs.io/en/latest/tutorials/wrf_workshop_2017.html)
 
 Seguir los pasos de instalación con los siguientes cambios:
 
